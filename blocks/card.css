@@ -1,0 +1,48 @@
+.card {
+  max-width: 282px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card__image {
+  width: 282px;
+}
+
+.card__info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 25px 15px 31px 21px;
+}
+.card__title {
+  margin: 0;
+  max-width: 225px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 29px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.card__icon {
+  width: 21px;
+  height: 19px;
+  border: none;
+  align-self: center;
+  background-image: url(../images/heart_icon.svg);
+  background-color: #fff;
+}
+
+.card__icon:hover {
+  opacity: 0.5;
+}
+
+.card__icon:active {
+  background-image: url(../images/Union.png);
+  opacity: 1;
+}

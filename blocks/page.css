@@ -1,0 +1,22 @@
+.page {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  background-color: #000;
+  margin: 0;
+}
+
+.page__container {
+  max-width: 880px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 950px) {
+  .page__container {
+    max-width: 660px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .page__container {
+    max-width: 320px;
+  }
+}

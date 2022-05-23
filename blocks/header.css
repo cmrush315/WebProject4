@@ -1,0 +1,23 @@
+.header {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  border-bottom: 1px solid rgba(84, 84, 84, 0.7);
+}
+
+.header__title-image {
+  margin: 45px auto 41px;
+}
+
+@media screen and (max-width: 680px) {
+  .header {
+    margin: 0;
+  }
+  https://cmrush315.github.io/cmrush315-se_project_aroundtheus/
+    .header__title {
+    margin: 0;
+  }
+  .header__title-image {
+    width: 126px;
+    margin: 28px 0 32px 27px;
+  }
+}
