@@ -19,6 +19,7 @@
     "title .";
   grid-template-rows: minmax(auto, 45px);
   gap: 16px 18px;
+  align-items: center;
 }
 .profile__name {
   font-style: normal;
@@ -41,7 +42,7 @@
   width: 24px;
   height: 24px;
   grid-area: button;
-  margin-top: auto;
+  /* margin-top: auto; */
 }
 .profile__job {
   margin: 0;
@@ -116,7 +117,6 @@
   .profile__edit-button {
     width: 18px;
     height: 18px;
-    margin-bottom: auto;
   }
 
   .profile__add-button {

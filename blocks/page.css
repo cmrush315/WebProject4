@@ -15,7 +15,7 @@
   }
 }
 
-@media screen and (max-width: 680px) {
+@media only screen and (max-width: 680px) {
   .page__container {
     max-width: 320px;
   }
