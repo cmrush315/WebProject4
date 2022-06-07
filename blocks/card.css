@@ -43,6 +43,6 @@
 }
 
 .card__icon:active {
-  background-image: url(../images/Union.png);
+  background-image: url(../images/Union.svg);
   opacity: 1;
 }
