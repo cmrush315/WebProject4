@@ -9,8 +9,8 @@ const profileJobInput = form.querySelector(".form__input_name_job");
 
 function openPopup() {
   profileEditPopup.classList.add("popup_is-opened");
-  profileNameInput.value = profileNameElement.textContent;
-  profileJobInput.value = profileJobElement.textContent;
+  profileNameElement.value = profileNameElement.textContent;
+  profileJobElement.value = profileJobElement.textContent;
 }
 
 function closePopup() {
@@ -21,7 +21,7 @@ profileEditButton.addEventListener("click", openPopup);
 
 formEditCloseIcon.addEventListener("click", closePopup);
 
-function preventDefaultEvent(event) {
+function updateProfile(event) {
   event.preventDefault();
   const nameValue = event.target.name.value;
   const jobValue = event.target.job.value;
@@ -29,4 +29,4 @@ function preventDefaultEvent(event) {
   profileJobElement.textContent = jobValue;
   closePopup();
 }
-profileEditForm.addEventListener("submit", preventDefaultEvent);
+profileEditForm.addEventListener("submit", updateProfile);
