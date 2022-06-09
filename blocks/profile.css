@@ -45,7 +45,7 @@
   grid-area: button;
 }
 
-.profile .profile__job {
+.profile__job {
   margin: 0;
   grid-area: title;
   font-weight: 400;

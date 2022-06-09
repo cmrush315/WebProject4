@@ -9,8 +9,8 @@ const profileJobInput = form.querySelector(".form__input_name_job");
 
 function openPopup() {
   profileEditPopup.classList.add("popup_is-opened");
-  profileNameElement.value = profileNameElement.textContent;
-  profileJobElement.value = profileJobElement.textContent;
+  profileNameInput.value = profileNameElement.textContent;
+  profileJobInput.value = profileJobElement.textContent;
 }
 
 function closePopup() {
